@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-image: url(f2.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+header h2:hover{
+  text-transform: uppercase ;
+}
+
+.nv {
+  display: flex;
+  justify-content: space-around;
+  background: seashell;
+  padding: 20px;
+}
+.nv p{
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+}
+.nv p a{
+  color: rgb(9, 9, 105);
+}
+.nv p a:hover{
+  text-transform: uppercase;
+  color: rgb(151, 165, 42);
+  background-color: rgb(225, 231, 190);
+}
+
+
+div p {
+  font-family: Apple Chancery, cursive;
+  font-size: 15px;
+  text-justify: newspaper;
+  list-style-type: none;
+  padding: 0;
+  margin-inline: 11px;
+  margin-top: 20px;
+}
+div h1{
+  color: rgb(134, 19, 71);
+  text-decoration: underline;
+}
+
+div p a {
+  color: deeppink;
+  text-decoration: inherit;
+}
+
+.main-container {
+  display: flex;
+}
+
+section {
+  flex: 3;
+  background-color: lavenderblush;
+  padding: 10px;
+  height: 350px;
+  width: 60%;
+}
+
+aside {
+  flex: 2;
+  text-align: left;
+  padding: 10px;
+  font-style: italic;
+  background-image: url(https://images.pexels.com/photos/87452/flowers-background-butterflies-beautiful-87452.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+footer {
+  background-color: #ddddd8;
+  padding: 44px;
+  text-align: center;
+  color: rgb(86, 27, 6);
+  margin-top: auto;
+  text-shadow: rgb(244, 238, 238);
+}
